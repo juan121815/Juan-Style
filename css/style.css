@@ -1,0 +1,39 @@
+:root {
+    --bg-main: #FFFFFF;
+    --bg-secondary: #FAF9F6;
+    --gold-primary: #C9A227;
+    --gold-soft: #E4C66A;
+    --gold-dark: #8C6A12;
+    --border-color: #E8E6E1;
+    --text-dark: #333333;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-dark);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-secondary-custom {
+    background-color: var(--bg-secondary);
+}
+
+.btn-gold {
+    background-color: var(--gold-primary);
+    color: #FFFFFF;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+    background-color: var(--gold-dark);
+    color: #FFFFFF;
+}
+
+.border-gold {
+    border-color: var(--gold-primary) !important;
+}
+
+.text-gold {
+    color: var(--gold-primary) !important;
+}
